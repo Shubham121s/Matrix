@@ -1,0 +1,29 @@
+.matrix-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .matrix-box {
+    width: 33.33%;
+    padding-bottom: 33.33%; /* Makes it square */
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  /* Media query for larger screens */
+  @media (min-width: 600px) {
+    .matrix-container {
+      width: 400px;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .matrix-container {
+      width: 500px;
+    }
+  }
+  
